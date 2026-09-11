@@ -1,0 +1,170 @@
+{
+  "status": "completed",
+  "graph": "official MaleCNS v1.0 weighted Feather",
+  "sensory_type": "R8d",
+  "sensory_class": "visual",
+  "side_field": "canonical side (somaSide, falling back only to rootSide)",
+  "hops": 3,
+  "stimulus_frequency_hz": 150.0,
+  "duration_ms": 500.0,
+  "seed": 17,
+  "source_counts": {
+    "L": 35,
+    "R": 41
+  },
+  "path_layer_counts": {
+    "L": {
+      "layer1_nodes": 154,
+      "layer2_nodes": 144,
+      "target_edges": 201
+    },
+    "R": {
+      "layer1_nodes": 197,
+      "layer2_nodes": 252,
+      "target_edges": 331
+    }
+  },
+  "subgraph": {
+    "neurons": 792,
+    "edges": 2061,
+    "raw_weight": 16588.0,
+    "included_edges_after_transmitter_sign_policy": 1535
+  },
+  "output_populations": {
+    "turn_left_ids": [
+      10442,
+      523769
+    ],
+    "turn_right_ids": [
+      10360,
+      10760
+    ],
+    "forward_ids": [
+      10783,
+      11177,
+      14501,
+      519268
+    ],
+    "dedicated_stop_ids": []
+  },
+  "spike_counts": {
+    "L": {
+      "all_subgraph": 2619,
+      "stimulus_sources": 2619,
+      "layer1": 0,
+      "layer2": 0,
+      "walking_related_targets": 0
+    },
+    "R": {
+      "all_subgraph": 3058,
+      "stimulus_sources": 3058,
+      "layer1": 0,
+      "layer2": 0,
+      "walking_related_targets": 0
+    }
+  },
+  "firing_rates_hz": {
+    "L": {
+      "10360": {
+        "type": "DNa02",
+        "side": "R",
+        "firing_rate_hz": 0.0,
+        "spike_count": 0
+      },
+      "10442": {
+        "type": "DNa01",
+        "side": "L",
+        "firing_rate_hz": 0.0,
+        "spike_count": 0
+      },
+      "10760": {
+        "type": "DNa01",
+        "side": "R",
+        "firing_rate_hz": 0.0,
+        "spike_count": 0
+      },
+      "10783": {
+        "type": "DNp09",
+        "side": "L",
+        "firing_rate_hz": 0.0,
+        "spike_count": 0
+      },
+      "11177": {
+        "type": "DNp09",
+        "side": "R",
+        "firing_rate_hz": 0.0,
+        "spike_count": 0
+      },
+      "14501": {
+        "type": "DNp28",
+        "side": "R",
+        "firing_rate_hz": 0.0,
+        "spike_count": 0
+      },
+      "519268": {
+        "type": "DNp28",
+        "side": "L",
+        "firing_rate_hz": 0.0,
+        "spike_count": 0
+      },
+      "523769": {
+        "type": "DNa02",
+        "side": "L",
+        "firing_rate_hz": 0.0,
+        "spike_count": 0
+      }
+    },
+    "R": {
+      "10360": {
+        "type": "DNa02",
+        "side": "R",
+        "firing_rate_hz": 0.0,
+        "spike_count": 0
+      },
+      "10442": {
+        "type": "DNa01",
+        "side": "L",
+        "firing_rate_hz": 0.0,
+        "spike_count": 0
+      },
+      "10760": {
+        "type": "DNa01",
+        "side": "R",
+        "firing_rate_hz": 0.0,
+        "spike_count": 0
+      },
+      "10783": {
+        "type": "DNp09",
+        "side": "L",
+        "firing_rate_hz": 0.0,
+        "spike_count": 0
+      },
+      "11177": {
+        "type": "DNp09",
+        "side": "R",
+        "firing_rate_hz": 0.0,
+        "spike_count": 0
+      },
+      "14501": {
+        "type": "DNp28",
+        "side": "R",
+        "firing_rate_hz": 0.0,
+        "spike_count": 0
+      },
+      "519268": {
+        "type": "DNp28",
+        "side": "L",
+        "firing_rate_hz": 0.0,
+        "spike_count": 0
+      },
+      "523769": {
+        "type": "DNa02",
+        "side": "L",
+        "firing_rate_hz": 0.0,
+        "spike_count": 0
+      }
+    }
+  },
+  "figure": "results/figures/lateralized_visual_asymmetry.png",
+  "interpretation": "Activity is reported from the exact MaleCNS graph subset and Shiu LIF model. The experiment does not assign a movement gain or call activity movement."
+}

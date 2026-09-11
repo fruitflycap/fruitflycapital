@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fruit-fly-capital"
+version = "0.1.0"
+description = "Fruit Fly Capital: MaleCNS v1.0 data access and biological fly simulation"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.26,<2",
+  "pandas>=2.1",
+  "pyarrow>=14",
+  "pydantic>=2.6",
+  "neuprint-python>=0.5.1",
+  "brian2>=2.6",
+  "scipy>=1.11",
+  "matplotlib>=3.8",
+  "websockets>=12",
+  "eth-account>=0.13",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+physics = ["mujoco>=3.2"]
+speed = ["Cython>=3.0"]
+fund = ["web3>=7.0"]
+
+[project.scripts]
+malecns-report = "malecns.cli:main"
+malecns-download = "malecns.download:main"
+malecns-brain-server = "malecns.brain_server:main"
+malecns-market-report = "malecns.market_cli:main"
+malecns-market-discovery = "malecns.market_discovery_cli:main"
+malecns-realtime-cache = "malecns.realtime_cache:main"
+malecns-bootstrap-privy = "malecns.fund.bootstrap_privy:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-q"

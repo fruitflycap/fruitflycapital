@@ -1,0 +1,26 @@
+{
+  "seed": 20260909,
+  "dt_seconds": 0.008333333333333333,
+  "arena_m": {
+    "x": 2.0,
+    "y": 1.0,
+    "z": 2.0
+  },
+  "physics_source": "frontend/src/fly/FlyBody.ts mirrored in this headless harness",
+  "malecns_data": "data/raw/body-annotations-male-cns-v1.0-minconf-0.5.feather",
+  "neural_provider": "none",
+  "malecns_connected_semantics": "FlightMotorDecoder receives an empty rate window; no spikes are fabricated",
+  "motor_disabled_semantics": "all actuator channels set to zero",
+  "experiments": {
+    "A_visual_stabilization_s": 10.0,
+    "B_visual_target_directions": [
+      "left",
+      "right",
+      "above",
+      "below"
+    ],
+    "B_visual_target_each_s": 4.0,
+    "C_odor_source_s": 20.0,
+    "D_free_flight_s": 60.0
+  }
+}

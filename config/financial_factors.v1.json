@@ -1,0 +1,112 @@
+{
+  "version": "financial-factors-v1",
+  "assumptionStatus": "engineering-assumption-not-trained",
+  "factors": {
+    "security_quality": {
+      "valueType": "quality",
+      "features": {
+        "security.contractVerified": 0.35,
+        "security.sellable": 0.35,
+        "security.taxQuality": 0.15,
+        "security.ownerRisk": 0.15
+      }
+    },
+    "liquidity_quality": {
+      "valueType": "quality",
+      "features": {
+        "liquidity.absolute": 0.35,
+        "liquidity.relative": 0.25,
+        "liquidity.stability": 0.20,
+        "liquidity.volumeRatio": 0.20
+      }
+    },
+    "valuation_quality": {
+      "valueType": "quality",
+      "features": {
+        "valuation.marketCapLiquidityQuality": 0.35,
+        "valuation.fdvLiquidityQuality": 0.35,
+        "valuation.volumeToMarketCap": 0.15,
+        "valuation.volumeToLiquidity": 0.15
+      }
+    },
+    "market_quality": {
+      "valueType": "quality",
+      "features": {
+        "market.volume5m": 0.30,
+        "market.volume1h": 0.30,
+        "flow.txVelocity": 0.20,
+        "liquidity.volumeRatio": 0.20
+      }
+    },
+    "momentum": {
+      "valueType": "signed",
+      "features": {
+        "flow.imbalance": 0.45,
+        "flow.acceleration": 0.30,
+        "market.cmcPercentChange7d": 0.15,
+        "market.cmcVolumeChange24h": 0.10
+      }
+    },
+    "flow": {
+      "valueType": "signed",
+      "features": {
+        "flow.imbalance": 0.65,
+        "flow.buySellCountImbalance": 0.20,
+        "flow.acceleration": 0.15
+      }
+    },
+    "activity": {
+      "valueType": "quality",
+      "features": {
+        "market.volume5m": 0.45,
+        "flow.txVelocity": 0.35,
+        "flow.accelerationMagnitude": 0.20
+      }
+    },
+    "holder_quality": {
+      "valueType": "quality",
+      "features": {
+        "holders.growth24h": 0.35,
+        "holders.concentrationQuality": 0.35,
+        "holders.churnQuality": 0.30
+      }
+    },
+    "onchain_quality": {
+      "valueType": "quality",
+      "features": {
+        "onchain.transferVelocity": 0.50,
+        "onchain.uniqueWalletGrowth": 0.50
+      }
+    },
+    "social_signal": {
+      "valueType": "signed",
+      "features": {
+        "social.sentiment": 0.60,
+        "social.mentionAcceleration": 0.40
+      }
+    },
+    "fundamental_quality": {
+      "valueType": "quality",
+      "features": {
+        "fundamental.ageQuality": 0.35,
+        "fundamental.supplyQuality": 0.35,
+        "fundamental.protocolUsage": 0.30
+      }
+    },
+    "risk_intensity": {
+      "valueType": "quality",
+      "features": {
+        "risk.liquidityStress": 0.45,
+        "risk.flowInstability": 0.35,
+        "risk.volatility": 0.20
+      }
+    },
+    "novelty_activity_change": {
+      "valueType": "quality",
+      "features": {
+        "activity.volumeShock": 0.50,
+        "activity.txAcceleration": 0.50
+      }
+    }
+  }
+}

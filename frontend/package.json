@@ -1,0 +1,22 @@
+{
+  "name": "fruit-fly-capital",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --force",
+    "prebuild": "node scripts/prepare-flybody-assets.mjs && node scripts/verify-flybody-assets.mjs",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "postprocessing": "^6.39.5",
+    "three": "^0.180.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.180.0",
+    "typescript": "^5.8.3",
+    "vite": "^7.1.5"
+  }
+}

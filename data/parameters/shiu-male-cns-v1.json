@@ -1,0 +1,15 @@
+{
+  "v_0_mV": -52.0,
+  "v_reset_mV": -52.0,
+  "v_threshold_mV": -45.0,
+  "membrane_time_ms": 20.0,
+  "synaptic_time_ms": 5.0,
+  "refractory_ms": 2.2,
+  "delay_ms": 1.8,
+  "synapse_scale_mV": 0.275,
+  "poisson_default_hz": 150.0,
+  "poisson_second_hz": 0.0,
+  "poisson_scale": 250.0,
+  "dt_ms": 0.1,
+  "parameter_version": "shiu-male-cns-v1"
+}

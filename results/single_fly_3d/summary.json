@@ -1,0 +1,106 @@
+{
+  "A_visual_stabilization": {
+    "malecns_connected": {
+      "disturbances": 4,
+      "mean_abs_yaw_command": 0.0,
+      "mean_angular_speed_at_0_5s_rads": 0.0038491637982777,
+      "mean_post_disturbance_peak_angular_speed_rads": 0.02518012354357069
+    },
+    "motor_output_disabled": {
+      "disturbances": 4,
+      "mean_abs_yaw_command": 0.0,
+      "mean_angular_speed_at_0_5s_rads": 0.0038491637982777,
+      "mean_post_disturbance_peak_angular_speed_rads": 0.02518012354357069
+    }
+  },
+  "B_visual_target": {
+    "above": {
+      "malecns_connected": {
+        "max_abs_pitch": 0.0,
+        "max_abs_roll": 0.0,
+        "max_abs_yaw": 0.0,
+        "max_descending_rate_hz": 0.0
+      },
+      "motor_output_disabled": {
+        "max_abs_pitch": 0.0,
+        "max_abs_roll": 0.0,
+        "max_abs_yaw": 0.0,
+        "max_descending_rate_hz": 0.0
+      }
+    },
+    "below": {
+      "malecns_connected": {
+        "max_abs_pitch": 0.0,
+        "max_abs_roll": 0.0,
+        "max_abs_yaw": 0.0,
+        "max_descending_rate_hz": 0.0
+      },
+      "motor_output_disabled": {
+        "max_abs_pitch": 0.0,
+        "max_abs_roll": 0.0,
+        "max_abs_yaw": 0.0,
+        "max_descending_rate_hz": 0.0
+      }
+    },
+    "left": {
+      "malecns_connected": {
+        "max_abs_pitch": 0.0,
+        "max_abs_roll": 0.0,
+        "max_abs_yaw": 0.0,
+        "max_descending_rate_hz": 0.0
+      },
+      "motor_output_disabled": {
+        "max_abs_pitch": 0.0,
+        "max_abs_roll": 0.0,
+        "max_abs_yaw": 0.0,
+        "max_descending_rate_hz": 0.0
+      }
+    },
+    "right": {
+      "malecns_connected": {
+        "max_abs_pitch": 0.0,
+        "max_abs_roll": 0.0,
+        "max_abs_yaw": 0.0,
+        "max_descending_rate_hz": 0.0
+      },
+      "motor_output_disabled": {
+        "max_abs_pitch": 0.0,
+        "max_abs_roll": 0.0,
+        "max_abs_yaw": 0.0,
+        "max_descending_rate_hz": 0.0
+      }
+    }
+  },
+  "C_odor_source": {
+    "malecns_connected": {
+      "final_distance_m": 0.9354270608018806,
+      "heading_change_rad": 0.0,
+      "horizontal_path_length_m": 0.0,
+      "initial_distance_m": 0.9353074372899444,
+      "mean_abs_yaw_command": 0.0,
+      "mean_olfactory_rate_hz": 0.5660216454166667,
+      "minimum_distance_m": 0.9353074372899444
+    },
+    "motor_output_disabled": {
+      "final_distance_m": 0.9385317726174015,
+      "heading_change_rad": 0.0,
+      "horizontal_path_length_m": 0.0,
+      "initial_distance_m": 0.9353074506540674,
+      "mean_abs_yaw_command": 0.0,
+      "mean_olfactory_rate_hz": 0.5579149833333333,
+      "minimum_distance_m": 0.9353074506540674
+    }
+  },
+  "D_free_flight": {
+    "duration_s": 60.0,
+    "final_position_m": [
+      0.0,
+      0.46491950030999146,
+      0.0
+    ],
+    "landed": false,
+    "max_abs_yaw_command": 0.0,
+    "max_descending_rate_hz": 0.0,
+    "path_length_m": 0.015080443443008462
+  }
+}

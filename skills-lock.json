@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "swap-integration": {
+      "source": "uniswap/uniswap-ai",
+      "sourceType": "github",
+      "skillPath": "packages/plugins/uniswap-trading/skills/swap-integration/SKILL.md",
+      "computedHash": "9d44bc3f22f6ca9c67bcfd857438fa2a59c0c9ddf435ad2b0d51deedf22cc16f"
+    }
+  }
+}

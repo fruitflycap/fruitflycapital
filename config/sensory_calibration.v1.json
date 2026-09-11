@@ -1,0 +1,15 @@
+{
+  "version": "sensory-calibration-v1",
+  "status": "placeholder_until_live_malecns",
+  "measured": false,
+  "channels": {
+    "resource": {"minimumDetectable": null, "usefulRange": null, "strongResponse": null, "saturation": null},
+    "motion": {"minimumDetectable": null, "usefulRange": null, "strongResponse": null, "saturation": null},
+    "odorA": {"minimumDetectable": null, "usefulRange": null, "strongResponse": null, "saturation": null},
+    "odorB": {"minimumDetectable": null, "usefulRange": null, "strongResponse": null, "saturation": null},
+    "light": {"minimumDetectable": null, "usefulRange": null, "strongResponse": null, "saturation": null},
+    "chaos": {"minimumDetectable": null, "usefulRange": null, "strongResponse": null, "saturation": null}
+  },
+  "recordedOutputs": ["totalSpikes", "sensorySpikes", "downstreamActivity", "descendingActivity", "decodedCommand"],
+  "note": "Populate only from a live MaleCNS sweep; null ranges are intentional and are not measurements."
+}

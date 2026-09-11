@@ -1,0 +1,30 @@
+{
+  "version": "sensory-mapping-v1",
+  "assumptionStatus": "engineering-assumption-not-biological-calibration",
+  "channels": {
+    "resource": {"cap": 0.78, "gain": 1.0},
+    "motion": {"cap": 0.78, "gain": 1.0},
+    "odorA": {"cap": 0.72, "gain": 1.0},
+    "odorB": {"cap": 0.72, "gain": 1.0},
+    "light": {"cap": 0.72, "gain": 1.0},
+    "chaos": {"cap": 0.68, "gain": 1.0}
+  },
+  "factorMatrix": {
+    "liquidity_quality": {"resource": 0.34, "motion": 0.05, "odorA": 0.18, "odorB": 0.00, "light": 0.08, "chaos": -0.20},
+    "market_quality": {"resource": 0.20, "motion": 0.12, "odorA": 0.10, "odorB": 0.00, "light": 0.16, "chaos": -0.08},
+    "activity": {"resource": 0.12, "motion": 0.38, "odorA": 0.10, "odorB": 0.00, "light": 0.24, "chaos": 0.12},
+    "momentum": {"resource": 0.00, "motion": 0.22, "odorA": 0.08, "odorB": -0.08, "light": 0.10, "chaos": 0.16},
+    "flow": {"resource": 0.04, "motion": 0.18, "odorA": 0.18, "odorB": -0.18, "light": 0.06, "chaos": 0.14},
+    "holder_quality": {"resource": 0.18, "motion": 0.04, "odorA": 0.12, "odorB": 0.00, "light": 0.08, "chaos": -0.10},
+    "security_quality": {"resource": 0.08, "motion": 0.00, "odorA": 0.06, "odorB": -0.12, "light": 0.04, "chaos": -0.24},
+    "valuation_quality": {"resource": 0.10, "motion": 0.04, "odorA": 0.08, "odorB": -0.06, "light": 0.05, "chaos": -0.12},
+    "social_signal": {"resource": 0.00, "motion": 0.08, "odorA": 0.05, "odorB": -0.05, "light": 0.10, "chaos": 0.08},
+    "risk_intensity": {"resource": -0.12, "motion": 0.10, "odorA": -0.08, "odorB": 0.24, "light": -0.06, "chaos": 0.38},
+    "novelty_activity_change": {"resource": 0.02, "motion": 0.16, "odorA": 0.06, "odorB": -0.02, "light": 0.08, "chaos": 0.14}
+  },
+  "contributionCaps": {
+    "rawFeature": 0.30,
+    "factor": 0.38,
+    "channel": 0.78
+  }
+}
