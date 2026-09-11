@@ -4,7 +4,7 @@ import type { TokenHabitat } from '../world/TokenHabitat'
 import { PRESENTATION_SCENE_HALF_EXTENT } from '../world/Arena'
 
 export type PresentationCameraMode = 'overview' | 'token' | 'director'
-type TradeEventSide = 'buy' | 'sel'
+type TradeEventSide = 'buy' | 'sell'
 
 interface TradeEventFocus {
   flyId: string
