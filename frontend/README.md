@@ -11,7 +11,7 @@ with `requestAnimationFrame`.
 
 ## Run
 
-From this directory:
+From the directory:
 
 ```bash
 npm install
